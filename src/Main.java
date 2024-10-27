@@ -1,4 +1,4 @@
-//1 задача
+///1 задача
 public class Main {
     public static void main(String[] args) {
         int myInt = 15;
