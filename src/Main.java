@@ -15,3 +15,15 @@ public class Main {
         System.out.println("Значение переменной myDouble с типом int равно " + myDouble);
     }
 }
+//2 задача
+
+public class Main {
+    public static void main(String[] args) {
+        double a = 27.12;
+        long b = 987678965549L;
+        float с = 2.786f;
+        int d = 569;
+        short e = 27897;
+        byte g = 67;
+    }
+}
