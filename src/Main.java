@@ -95,3 +95,21 @@ public class Main {
         System.out.printf("Общий вес завтрака: %d грамм (%.2f кг)", totalWeight, totalWeightInKg);
     }
 }
+
+//7 задача
+public class Main {
+    public static void main(String[] args) {
+
+        int weightLossGoalKg = 7;
+        double dailyWeightLossLowKg = 0.25;
+        double dailyWeightLossHighkg = 0.5;
+
+        int daysLow = (int) Math.ceil(weightLossGoalKg / dailyWeightLossLowKg);
+        int daysHigh = (int) Math.ceil(weightLossGoalKg / dailyWeightLossHighkg);
+        int daysAverage = (daysLow + daysHigh) / 2;
+
+        System.out.println("Для похудения на " + weightLossGoalKg + " кг при потере веса " + dailyWeightLossLowKg + " кг в день нужно " + daysLow + " дней");
+        System.out.println("Для похудения на " + weightLossGoalKg + " кг при потере веса " + dailyWeightLossHighkg + " кг в день нужно " + daysHigh + " дней");
+        System.out.println("В среднем потребуется " + daysAverage + " дней для похудения на " + weightLossGoalKg + " кг");
+    }
+}
