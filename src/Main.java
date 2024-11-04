@@ -41,3 +41,24 @@ public class Main {
         System.out.println("На каждого ученика рассчитано" + sheetsPerStudent + " листов бумаги");
     }
 }
+
+//4 задача
+public class Main {
+    public static void main(String[] args) {
+        int bottlesPerMinute = 8;
+        int minutesInDay = 1440;
+        int minutesIn3Day = 3 * minutesInDay;
+        int minutesInMonth = 30 * minutesInDay;
+
+        int bottlesIn20Minutes = bottlesPerMinute * 20;
+        int bottlesInDay = bottlesPerMinute * minutesInDay;
+        int bottlesIn3Days = bottlesPerMinute * minutesIn3Day;
+        int bottlesInMonth = bottlesPerMinute * minutesInMonth;
+
+
+        System.out.println("За 20 минут машина произвела " + bottlesIn20Minutes + " штук бутылок");
+        System.out.println("За сутки машина производит " + bottlesInDay + "  штук бутылок");
+        System.out.println("За 3 дня машина произвела " + bottlesIn3Days + " штук бутылок");
+        System.out.println("За месяц машина произвела " + bottlesInMonth + " штук бутылок");
+    }
+}
