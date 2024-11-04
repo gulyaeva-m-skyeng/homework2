@@ -1,4 +1,4 @@
-//1 задача
+///1 задача
 public class Main {
     public static void main(String[] args) {
         int myInt = 15;
@@ -15,8 +15,6 @@ public class Main {
         System.out.println("Значение переменной myDouble с типом int равно " + myDouble);
     }
 }
-
-
 //2 задача
 
 public class Main {
@@ -29,7 +27,6 @@ public class Main {
         byte g = 67;
     }
 }
-
 
 //3 задача
 public class Main {
@@ -44,6 +41,7 @@ public class Main {
         System.out.println("На каждого ученика рассчитано" + sheetsPerStudent + " листов бумаги");
     }
 }
+
 //4 задача
 public class Main {
     public static void main(String[] args) {
@@ -82,22 +80,21 @@ public class Main {
 }
 
 //6 задача
-        public class Main {
-            public static void main(String[] args) {
-                int bananasCount = 5;
-                int bananasWeight = 80;
-                int milkVolume = 200;
-                double iceCreamWeight = 2 * 100;
-                int eggsCount = 4;
-                int eggsWeight = 70;
+public class Main {
+    public static void main(String[] args) {
+        int bananasCount = 5;
+        int bananasWeight = 80;
+        int milkVolume = 200;
+        double iceCreamWeight = 2 * 100;
+        int eggsCount = 4;
+        int eggsWeight = 70;
 
-                int totalWeight = bananasCount * bananasWeight + milkVolume * 105 / 100 + (int) iceCreamWeight + eggsCount * eggsWeight;
-                double totalWeightInKg = totalWeight / 1000.0;
+        int totalWeight = bananasCount * bananasWeight + milkVolume * 105 / 100 + (int) iceCreamWeight + eggsCount * eggsWeight;
+        double totalWeightInKg = totalWeight / 1000.0;
 
-                System.out.printf("Общий вес завтрака: %d грамм (%.2f кг)", totalWeight, totalWeightInKg);
-            }
-        }
-
+        System.out.printf("Общий вес завтрака: %d грамм (%.2f кг)", totalWeight, totalWeightInKg);
+    }
+}
 
 //7 задача
 public class Main {
@@ -144,4 +141,3 @@ public class Main {
 
     }
 }
-
