@@ -27,3 +27,17 @@ public class Main {
         byte g = 67;
     }
 }
+
+//3 задача
+public class Main {
+    public static void main(String[] args) {
+        int studentsOfClass1 = 23;
+        int studentsOfClass2 = 27;
+        int studentsOfClass3 = 30;
+        int totalSheets = 480;
+
+        int totalStudents = studentsOfClass1 + studentsOfClass2 + studentsOfClass3;
+        int sheetsPerStudent = totalSheets / totalStudents;
+        System.out.println("На каждого ученика рассчитано" + sheetsPerStudent + " листов бумаги");
+    }
+}
