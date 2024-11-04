@@ -113,3 +113,31 @@ public class Main {
         System.out.println("В среднем потребуется " + daysAverage + " дней для похудения на " + weightLossGoalKg + " кг");
     }
 }
+
+//8 задача
+public class Main {
+    public static void main(String[] args) {
+
+        double increasedPercent = 1.1;
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
+
+        int mashaNewSalary = (int) (mashaSalary * increasedPercent);
+        int denisNewSalary = (int) (denisSalary * increasedPercent);
+        int kristinaNewSalary = (int) (kristinaSalary * increasedPercent);
+
+        int mashaAnnualIncomeBefore = mashaSalary * 12;
+        int denisAnnualIncomeBefore = denisSalary * 12;
+        int kristinaAnnualIncomeBefore = kristinaSalary * 12;
+
+        int mashaAnnualIncomeAfter = mashaNewSalary * 12;
+        int denisAnnualIncomeAfter = denisNewSalary * 12;
+        int kristinaAnnualIncomeAfter = kristinaNewSalary * 12;
+
+        System.out.println("Маша теперь получает " + mashaNewSalary + " рублей. Годовой доход вырос на " + (mashaAnnualIncomeAfter - mashaAnnualIncomeBefore) + " рублей. " );
+        System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " + (denisAnnualIncomeAfter - denisAnnualIncomeBefore) + " рублей. " );
+        System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + (kristinaAnnualIncomeAfter - kristinaAnnualIncomeBefore) + " рублей. " );
+
+    }
+}
